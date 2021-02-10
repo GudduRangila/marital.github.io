@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>First web pages</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+
+  <body>
+    <!-- Header Menu of the Page -->
+    <header class="container">
+      <!-- Top header menu containing 
+				logo and Navigation bar -->
+      <div id="top-header">
+        <!-- Logo -->
+        <div id="logo">
+          <img src="images/logo1.jpg" alt="" />
+        </div>
+        <!-- Navigation Menu -->
+        <nav>
+          <div id="menu">
+            <ul>
+              <li class="active"><a href="index.html">Home</a></li>
+              <li class="active"><a href="couple.html">Couple</a></li>
+              <li class="active"><a href="story.html">Stories</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="ContactFrom_v2/index.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <h3 style="margin-left: 50px">Contact Form</h3>
+
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>

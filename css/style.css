@@ -1,0 +1,142 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #ffffff;
+  font-family: "Roboto";
+  font-size: 12pt;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  color: #404040;
+}
+
+p,
+ol,
+ul {
+  margin-top: 0;
+}
+
+p {
+  line-height: 180%;
+}
+
+ol,
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  /* Set width of container to 
+        1200px and align center */
+  margin: 0px auto;
+  width: 1200px;
+}
+header {
+  overflow: hidden;
+}
+#top-header {
+  text-align: center;
+  height: 60px;
+}
+#logo {
+  float: left;
+  padding: none;
+  margin: none;
+  height: 60px;
+  width: 30%;
+}
+
+#logo img {
+  width: 60%;
+  float: left;
+  padding: 10px 0px;
+}
+#menu {
+  float: right;
+  width: 70%;
+  height: 100%;
+  margin: none;
+}
+
+#menu ul {
+  text-align: center;
+  float: right;
+  margin: none;
+  background: hsl(0, 100%, 43%);
+}
+
+#menu li {
+  display: inline-block;
+  padding: none;
+  margin: none;
+}
+
+#menu li a,
+#menu li span {
+  display: inline-block;
+  padding: 0em 1.5em;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 60px;
+}
+
+#menu li a {
+  color: #fff;
+}
+
+#menu li:hover a,
+#menu li span {
+  background: #fff;
+  color: #0074d9;
+  border-left: 1px solid #0074d9;
+  text-decoration: none;
+}
+#header-image-menu {
+  top: -17px;
+  position: relative;
+}
+#header-image-menu img {
+  width: 100%;
+  margin: none;
+  padding: none;
+}
+#image-text {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  font-family: "Roboto";
+  color: #000;
+  transform: translate(-30%, -30%);
+  text-align: center;
+}
+#welcome {
+  overflow: hidden;
+  width: 1000px;
+  margin: 0px auto;
+  text-align: center;
+}
+.title,
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+  text-decoration: underline;
+}
+.main,
+h2 {
+  text-align: center;
+}
+.main p {
+  text-align: justify;
+  margin: 30px;
+}
